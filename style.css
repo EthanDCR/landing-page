@@ -1,7 +1,25 @@
-h1{
-    color: blue;
+/* Styles for landing page  */
+
+.container1 {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    justify-content: space-between; /* Adjust alignment */
+    align-items: center; /* Align items vertically */
+    background-color: #1f2937;
+    color: white;
+    display: flex; /* Ensure it's a flex container */
 }
 
-.testclass {
-    color: blueviolet;
+.headerleft {
+    font-size: 48px;
 }
+
+.headerright {
+    display: flex; /* Establish flex container for .headerright */
+    align-items: center; /* Align items vertically within .headerright */
+    margin-left: auto; /* Move .headerright to the right */
+    margin-right: 1px;
+}
+
+    
