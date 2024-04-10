@@ -1,14 +1,17 @@
 /* Styles for landing page  */
 
-.container1 {
-    width: 100%;
-    margin: auto;
-    padding: 30px;
-    justify-content: space-between; /* Adjust alignment */
-    align-items: center; /* Align items vertically */
+.section1 {
     background-color: #1f2937;
-    color: white;
-    display: flex; /* Ensure it's a flex container */
+    color: whitesmoke;
+}
+
+.container1 {
+    background-color: #1f2937;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between 100px;
 }
 
 .headerleft {
@@ -16,10 +19,15 @@
 }
 
 .headerright {
-    display: flex; /* Establish flex container for .headerright */
-    align-items: center; /* Align items vertically within .headerright */
-    margin-left: auto; /* Move .headerright to the right */
-    margin-right: 1px;
+    margin-left: 10%;
+    align-items: center;
 }
+
+
+
+
+
+
+
 
     
