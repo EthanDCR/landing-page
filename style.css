@@ -23,8 +23,22 @@
     align-items: center;
 }
 
-.container2 
-  
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.headerleft2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerright2 {
+    flex: 0 0 50px;
+}
+
+
 
 
 
