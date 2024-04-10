@@ -18,17 +18,22 @@
     display: flex;
     align-items: center;
     padding: 30px;
-    padding-left: 250px;
     justify-content: space-between 100px;
 }
 
 .headerleft {
-    font-size: 48px;
+    font-size: 36px;
+    padding-left: 190px;
+    font-weight: bold;
 }
 
 .headerright {
-    margin-left: 10%;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    padding-right: 300px;
+    filter: contrast(50%);
 }
 
 .container2 {
@@ -43,6 +48,7 @@
     display: flex;
     flex-direction: column;
     max-width: 400px;
+    
 }
 
 .headerright2 {
@@ -57,26 +63,38 @@ h1{
     font-size: 52px;
 }
 
+    
 #button {
-    background-color: blue;
-    margin-right: 140px;
-    border-radius: 12px;
-    color: white;
-    border: none;
-    font-size: 16px;
-    margin: 10px;
-    max-width: 150px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove default button border */
+    border-radius: 10px; /* Set border radius to create rounded corners */
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-right: 300px;
+    margin-top: 15px;
 }
 
 #image1 {
     width: 30%;
     height: auto;
+    padding-right: 200px;
     
 }
 
+#headerleft2text {
+    filter: contrast(50%);
+    margin-top: 10px;
+}
+
+
+/* REMEMBER to add new font to this at the end of this project. */
+/* -------------------------------------------------- */
+/* New */
+/* -------------------------------------------------- */
+/* Section #2 */
+/* -------------------------------------------------- */
 
 
 
-
-
-    
