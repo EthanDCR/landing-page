@@ -40,10 +40,10 @@ h1 {
 
 #button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 20px;1f2937
   font-size: 16px;
   font-weight: bold;
-  background-color: #3882f6;
+  background-color: #40e0d0;
   border: none;
   border-radius: 8%;
   cursor: pointer;
@@ -52,7 +52,6 @@ h1 {
   transition: background-color 0.3s ease;
   color: white;
 }
-
 .container2 {
   display: flex;
   justify-content: space-evenly;
@@ -68,8 +67,98 @@ h1 {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .container3 {
   display: flex;
 }
+
+.blueboxes {
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.6;
+}
+
+.subtexts {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  gap: 60px;
+  opacity: 0.5;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px;
+}
+
+#quotesection {
+  background-color: #e5e7eb;
+}
+
+#quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#quotecredit {
+  padding-left: 480px;
+  padding-top: 10px;
+}
+
+/* Last Section */
+
+.last-div {
+  background-color:#1f2937 ;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.bluecontainer {
+  background-color:#40e0d0;
+  border-radius: 12px;
+  padding:50px;
+  margin: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+
+h3 {
+  color: white;
+  font-size: 36px;
+  font-weight: bolder;
+
+  
+}
+
+#lastp {
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  
+}
+
+.rightbutton {
+ color: white;
+ background-color:#1f2937;
+ width: 300px;
+ border-radius: 12px;
+ padding: 10px 20px;
+ margin-top: 10px;
+ font-size: 36px;
+
+}
+
+
